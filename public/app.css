@@ -1,0 +1,18 @@
+body{
+    background-image: url('../img/admin/inicio/fondo.png');
+    background-color: black;
+}
+
+
+.headerInicioWeb{
+    background-color: #FA4A0C;
+    height: 60px;
+    width: 100%;
+}
+
+
+button {
+    background-color: #32E5F0;
+    border-radius: 8%;
+
+}
