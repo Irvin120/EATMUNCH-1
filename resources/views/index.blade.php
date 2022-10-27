@@ -21,6 +21,10 @@
             <button type="button">Ingresar</button>
 
     </div>
+
+    <div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quas quos expedita ex nemo! Delectus sequi itaque repellat iste laboriosam quisquam quae reiciendis unde? Libero voluptates nemo tenetur totam sequi!</h1>
+    </div>
 </body>
 
 </html>
