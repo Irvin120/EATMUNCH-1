@@ -1,0 +1,41 @@
+body{
+    min-width:700px ;
+    background: #FA4A0C;
+}
+.headerInicioWeb{
+    background-color: #FA4A0C;
+    height: 103px;
+    width: 100%;
+    position: relative;
+}
+
+.imagenlogo img{
+    position: absolute;
+    max-width: 82px;
+    max-height: 77px;
+    position: absolute;
+    left: 120px;
+    margin: 13px;
+}
+
+.con-login{
+    min-width: 700px;
+    background-image: url('../img/admin/inicio/imagen-login.png');
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    height: auto;
+    min-height: 514px;
+}
+
+.contenform{
+    background-color: white;
+    min-width: 723px;
+    max-width: 823px;
+    max-height: 574px;
+}
+
+form{
+    background-color: white;
+}
+
