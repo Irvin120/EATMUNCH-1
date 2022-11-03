@@ -1,5 +1,14 @@
+*{
+    font-family: Roboto;
+
+}
+
+h1{
+    font-size: calc(1.7rem);
+}
+
 body{
-    min-width:700px ;
+    min-width:700px;
     background: #FA4A0C;
 }
 .headerInicioWeb{
@@ -37,5 +46,28 @@ body{
 
 form{
     background-color: white;
+    padding: 17px;
+
 }
 
+.titulo-form{
+    text-align: center;
+
+}
+
+.col-form-label {
+    font-weight: bold;
+}
+
+.btn-orange{
+    background-color: #FA4A0C;
+    color: white;
+    font-family: Roboto;
+    width: 100%;
+}
+
+@media (min-width: 1200px){
+    h1 {
+    font-size: 2rem;
+}
+}

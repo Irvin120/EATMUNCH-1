@@ -22,7 +22,9 @@
 <body>
     <div class="con-login">
         <div class="position-absolute top-50 start-50 translate-middle">
+
             <form>
+                <h1 class="titulo-form">LOGIN</h1>
                 <div class="row mb-3">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                     <div class="">
@@ -30,12 +32,12 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="inputPassword3" class=" col-form-label">Password</label>
+                    <label for="inputPassword3" class=" col-form-label">Contraseña</label>
                     <div class="">
                         <input type="password" class="form-control" id="inputPassword3">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button  type="submit" class="btn btn-orange">Sign in</button>
             </form>
         </div>
     </div>

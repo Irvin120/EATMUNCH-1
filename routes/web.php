@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\IngresoController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +20,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/login-admin',[UsersController::class, 'index'])->name('loginAdmin');
+Route::get ('/soporte/gerente',[UsersController::class, 'index'])->name('userGerente');
+
+Route::get('/login/gerente',[IngresoController::class, 'index'])->name('loginAdmin');

@@ -1,0 +1,17 @@
+
+
+.cssrow{
+    height: 103px;
+    background-color: #FA4A0C;
+}
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+body{
+    background-color: black;
+    background-image: url(../img/admin/inicio/fondo.png);
+    min-width: 755px;
+
+}

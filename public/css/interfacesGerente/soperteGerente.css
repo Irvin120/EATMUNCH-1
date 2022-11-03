@@ -1,0 +1,23 @@
+.cardsoporte{
+    background-color: #32E5F0;
+    margin-bottom:10px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+
+}
+
+.contenSoporte{
+    padding: 0px 50px;
+
+}
+.row-cols-3>* {
+    width: 26% !important;
+    height: 10rem;
+    max-width: 216px;
+}
+
+.overflow-hidden
+{
+    width: auto;
+    height: auto;
+}
