@@ -1,0 +1,125 @@
+p{
+    margin: 0px 0px !important;
+
+}
+
+.cont-form{
+    position: relative;
+    min-width: 712px;
+    min-height: 416px;
+    width: 712px;
+    height: 416px;
+    margin: 20px auto;
+
+}
+
+.form {
+
+    font-family: Roboto;
+    margin: 0px auto;
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #6F776F;
+    opacity: .8;
+}
+
+.titulos-Descon{
+    width: 100%;
+    height: 117px;
+}
+
+.titleform p{
+    color:rgba(0, 0, 0);
+    border-top:15px ;
+    height: 35px;
+    width: 100%;
+
+}
+
+.cont-sections{
+    width: 100%;
+    height: 323px;
+    background-color: #6F776F;
+}
+.section1{
+    color:rgb(255, 255, 255);
+    float: left;
+    width: 70%;
+    height: 323px;
+}
+
+.conten-nombreProducto{
+    width: 100%;
+    height: 68px;
+    writing-mode: horizontal-tb;
+}
+
+.nombreProducto{
+
+    margin: 0px auto;
+    text-align: center;
+    width: 70%;
+    height: 35px;
+}
+
+.nombrePIn{
+    height: 35px;
+    width: 100%;
+}
+
+.conten-desCon{
+    width: 100%;
+    height: 140px;
+    background-color: #6F776F;
+
+}
+
+.desCon1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    float: left;
+    width: 200px;
+    height: 140px;
+    margin: 0 4.2%;
+}
+
+
+.desCon2{
+    text-align: center;
+    float: right;
+    width: 200px;
+    height: 140px;
+    margin: 0 4.2%;
+}
+
+
+
+.section2{
+    float: right;
+    width: 30%;
+    height: 323px;
+    background-color: coral;
+    opacity: .7;
+}
+
+.contenPromocion{
+    width: 100%;
+
+    margin: 15px 20px;;
+}
+
+.contenPromocion p{
+    float: left;
+    font-size: 18px;
+}
+
+.contenPromocion label{
+    margin: 0 5%;
+    border-radius: 12px;
+}
+.contenPromocion label input{
+    width: 17px;
+    height: 17px;
+    margin: 5px;
+}

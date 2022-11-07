@@ -14,7 +14,7 @@
 </div>
 <div class="contencards overflow-hidden">
 
-<div class="row row-cols-3 cards-soporte">
+<div class="card-row row-cols-3 cards-soporte ">
 
     <div class="col text-center cardsoporte">1</div>
     <div class="col text-center cardsoporte">2</div>
@@ -22,6 +22,7 @@
     <div class="col text-center cardsoporte">4</div>
     <div class="col text-center cardsoporte">5</div>
     <div class="col text-center cardsoporte">6</div>
+
 </div>
 </div>
 

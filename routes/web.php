@@ -16,10 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', function () { return view('index'); });
+Route::get('/login/gerente',[IngresoController::class, 'index'])->name('loginGerente');
 
-Route::get ('/soporte/gerente',[UsersController::class, 'index'])->name('userGerente');
-
-Route::get('/login/gerente',[IngresoController::class, 'index'])->name('loginAdmin');
+Route::get('/soporte/gerente',[UsersController::class, 'indexsoporte'])->name('soporteGerente');
+Route::get('/menu/gerente',[UsersController::class, 'indexmenu'])->name('menuGerente');
+Route::get('/personal/gerente',[UsersController::class, 'indexpersonal'])->name('personalGerente');
+Route::get('/pedidos/gerente',[UsersController::class, 'indexpedidos'])->name('pedidosGerente');
+Route::get('/mesas/gerente',[UsersController::class, 'indexmesas'])->name('mesasGerente');

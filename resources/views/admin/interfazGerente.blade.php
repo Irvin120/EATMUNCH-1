@@ -16,15 +16,15 @@
 
     <div class="row cssrow">
         <div class="col-3 text-center align-self-center"><img src="{{ asset('img/admin/inicio/logoEM.png') }}"alt=""></div>
-        <div class="col text-center align-self-center">Mesas</div>
-        <div class="col text-center align-self-center">Pedidos</div>
-        <div class="col text-center align-self-center">Personal</div>
-        <div class="col text-center align-self-center">Menu</div>
-        <div class="col text-center align-self-center">Soporte</div>
+        <div class="col text-center align-self-center"><a href="{{route('mesasGerente')}}">Mesas</a> </div>
+        <div class="col text-center align-self-center"><a href="{{route('pedidosGerente')}}">Pedidos</a></div>
+        <div class="col text-center align-self-center"><a href="{{route('personalGerente')}}">Personal</a></div>
+        <div class="col text-center align-self-center"><a href="{{route('menuGerente')}}">Menu</a></div>
+        <div class="col text-center align-self-center"><a href="{{route('soporteGerente')}}">Soporte</a></div>
         <div class="col-3 text-center align-self-center">
 
             <div class="row cssrow2">
-                <div class="col-6 align-self-center">Gerente1</div>
+                <div class="col-6 align-self-center"><a href="{{route('loginGerente')}}">Gerente</a></div>
                 <div class="col-6  "><img class="img-fluid" src="{{ asset('img/admin/inicio/imagen-login.png') }}"
                         alt=""></div>
             </div>
