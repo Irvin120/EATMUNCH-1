@@ -36,24 +36,35 @@
 
                         </div>
                     </div>
-
-
-
-                    <div class="contenPromocion">
-                        <p>Promocion:</p>
-                        <label><p>Si</p>
-                            <input type="radio" name="" id="" value="Si">
-                        </label>
-                        <label><p>No</p>
-                            <input type="radio" name="" id="" value="No">
-                        </label>
-
+                    <div class="conten-categoria">
+                        <div class="categoria">
+                            <label for="#">Categoria: </label>
+                            <select type="text" id="disabledSelect" name="categoria" class="select-form">
+                                <option>Comida</option>
+                                <option>Bebida</option>
+                                <option>Postre</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
 
-
-
                 <div class="section2">
+                    <div class="imagenSection2">
+                        <div class="imagen2">
+                            <img src="#" alt="Imagen Producto">
+
+                        </div>
+
+                    </div>
+
+                    <div class="precioSection2">
+                        <div class="precio2">
+                            <label class="label-precio" for="">Precio:</label>
+                            <input class="input-number" type="number" placeholder="$">
+
+                        </div>
+                        <a href="#" class="btn btn-guardar">Guardar</a>
+                    </div>
                 </div>
             </div>
 

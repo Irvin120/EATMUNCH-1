@@ -1,6 +1,8 @@
 p{
     margin: 0px 0px !important;
-
+}
+label{
+    color: rgb(255, 255, 255);
 }
 
 .cont-form{
@@ -16,17 +18,17 @@ p{
 .form {
 
     font-family: Roboto;
-    margin: 0px auto;
+    margin: 44px auto;
     width: 700px;
     height: 400px;
-    border-radius: 15px;
-    background-color: #6F776F;
-    opacity: .8;
+    border-radius: 12px;
+    background-color: rgb(111, 119, 111,.7);
 }
 
 .titulos-Descon{
     width: 100%;
     height: 117px;
+    border: none;
 }
 
 .titleform p{
@@ -40,7 +42,6 @@ p{
 .cont-sections{
     width: 100%;
     height: 323px;
-    background-color: #6F776F;
 }
 .section1{
     color:rgb(255, 255, 255);
@@ -53,6 +54,7 @@ p{
     width: 100%;
     height: 68px;
     writing-mode: horizontal-tb;
+
 }
 
 .nombreProducto{
@@ -66,13 +68,12 @@ p{
 .nombrePIn{
     height: 35px;
     width: 100%;
+    text-align: center;
 }
 
 .conten-desCon{
     width: 100%;
     height: 140px;
-    background-color: #6F776F;
-
 }
 
 .desCon1{
@@ -99,27 +100,76 @@ p{
     float: right;
     width: 30%;
     height: 323px;
-    background-color: coral;
-    opacity: .7;
 }
 
-.contenPromocion{
+.conten-categoria{
+    position: relative;
     width: 100%;
-
-    margin: 15px 20px;;
+    height: 114px;
+    padding: 40px;
 }
 
-.contenPromocion p{
+.categoria{
+    width: 100%;
+    height: 50px;
+    padding: 10px 30px;
+}
+
+.select-form{
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    border: none;
+}
+
+.imagenSection2{
+    width: 100%;
+    height: 62%;
+
+}
+
+.imagen2{
+        width: 180px;
+        height: 180px;
+        background-color: #ffffff;
+        margin: 19px auto;
+}
+.imagen2 img{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.precio2{
+    margin: 4% 4%;
+    width: 195px;
+    height: 40px;
+}
+
+.btn{
+    color: #ffffff !important;
+}
+
+.btn-guardar{
+    color: #ffffff;
+    --bs-btn-padding-x: 0rem !important;
+    --bs-btn-padding-y: 0rem !important;
+    margin: 4%;
+    width: 195px !important;
+    height: 25px !important;
+    background: #12e012 !important;
+
+}
+
+.label-precio{
     float: left;
-    font-size: 18px;
 }
 
-.contenPromocion label{
-    margin: 0 5%;
-    border-radius: 12px;
-}
-.contenPromocion label input{
-    width: 17px;
-    height: 17px;
-    margin: 5px;
+.input-number
+{
+    border: none;
+    text-align: center;
+    margin: 0 10px;
+    width: 100px;
+    height: auto;
 }
