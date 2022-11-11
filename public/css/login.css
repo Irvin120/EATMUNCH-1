@@ -1,73 +1,70 @@
-*{
-    font-family: Roboto;
 
-}
-
-h1{
-    font-size: calc(1.7rem);
-}
 
 body{
-    min-width:700px;
-    background: #FA4A0C;
+ min-width: 704px;
+ min-height: 538px;
 }
+
 .headerInicioWeb{
-    background-color: #FA4A0C;
-    height: 103px;
     width: 100%;
-    position: relative;
-}
-
-.imagenlogo img{
-    position: absolute;
-    max-width: 82px;
-    max-height: 77px;
-    position: absolute;
-    left: 120px;
-    margin: 13px;
-}
-
-.con-login{
-    min-width: 700px;
-    background-image: url('../img/admin/inicio/imagen-login.png');
-    position: absolute;
-    width: 100%;
-    background-size: cover;
-    height: auto;
-    min-height: 514px;
-}
-
-.contenform{
-    background-color: white;
-    min-width: 723px;
-    max-width: 823px;
-    max-height: 574px;
-}
-
-form{
-    background-color: white;
-    padding: 17px;
+    height: 75px;
+    background-color: #fa3c0c;;
 
 }
 
-.titulo-form{
+.text-center{
+    color: white;
+}
+
+
+video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50% ) translateY(-50%);
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+.formulario{
+
+    border-radius: 10px;
+    margin: 85px auto;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.91);
+}
+
+.formulario h1{
     text-align: center;
 
 }
 
-.col-form-label {
-    font-weight: bold;
+.formulario{
+    padding: 15px;
 }
 
-.btn-orange{
-    background-color: #FA4A0C;
-    color: white;
-    font-family: Roboto;
+.butto{
     width: 100%;
+    height: 35px;
+    background-color:rgb(250, 74, 12,1);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    --bs-btn-border-color:none;
 }
 
-@media (min-width: 1200px){
-    h1 {
-    font-size: 2rem;
+.butto:hover {
+    color: white;
+    background-color:rgb(250, 50, 12,1);
+    border-radius: 6px;
 }
+
+img{
+    max-width: 80px;
+    top: -57px;
 }
+
+

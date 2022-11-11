@@ -11,19 +11,21 @@
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 
 </head>
-<header>
-    <div class="headerInicioWeb">
-        <div class="imagenlogo">
-            <img src="{{ asset('img/admin/inicio/logoEM.png') }}" alt="">
-        </div>
-    </div>
-</header>
+
+
 
 <body>
-    <div class="con-login">
-        <div class="position-absolute top-50 start-50 translate-middle">
+    <div class="headerInicioWeb">
+        <h1 class="text-center">HEAT MUNCH</h1>
+        <div class="imagenlogo position-absolute ">
+            <img  class="position-absolute" src="{{ asset('img/admin/inicio/logoEM.png') }}" alt="">
+        </div>
+    </div>
 
-            <form>
+    <video src="{{asset('video/dv.mp4')}}" autoplay loop muted ></video>
+
+            <form class="formulario">
+
                 <h1 class="titulo-form">LOGIN</h1>
                 <div class="row mb-3">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
@@ -37,10 +39,9 @@
                         <input type="password" class="form-control" id="inputPassword3">
                     </div>
                 </div>
-                <button  type="submit" class="btn btn-orange">Sign in</button>
+                <button  type="submit" class="butto ">INGRESAR</button>
             </form>
-        </div>
-    </div>
+
 </body>
 
 </html>

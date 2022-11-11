@@ -20,7 +20,7 @@
         <div class="col text-center align-self-center"><a href="{{route('pedidosGerente')}}">Pedidos</a></div>
         <div class="col text-center align-self-center"><a href="{{route('personalGerente')}}">Personal</a></div>
         <div class="col text-center align-self-center"><a href="{{route('menuGerente')}}">Menu</a></div>
-        <div class="col text-center align-self-center"><a href="{{route('soporteGerente')}}">Soporte</a></div>
+        <div class="col text-center align-self-center"><a href="{{route('soporteGerente')}}">Ayuda</a></div>
         <div class="col-3 text-center align-self-center">
 
             <div class="row cssrow2">
