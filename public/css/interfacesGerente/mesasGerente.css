@@ -1,0 +1,27 @@
+.cont-mesas{
+
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-agregar-eliminar p{
+    color: white;
+    margin-right: 32%;
+    align-items: center;
+}
+.container-agregar-eliminar{
+    background-color: green;
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-agregar-eliminar .img-fluid{
+    width: 50px;
+    height: 50px;
+}
+.codigoQR{
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+}
