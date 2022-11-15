@@ -15,17 +15,17 @@
 <body>
 
     <div class="row cssrow">
-        <div class="col-3 text-center align-self-center"><img src="{{ asset('img/admin/inicio/logoEM.png') }}"alt=""></div>
-        <div class="col text-center align-self-center"><a href="{{route('mesasGerente')}}">Mesas</a> </div>
-        <div class="col text-center align-self-center"><a href="{{route('pedidosGerente')}}">Pedidos</a></div>
-        <div class="col text-center align-self-center"><a href="{{route('personalGerente')}}">Personal</a></div>
-        <div class="col text-center align-self-center"><a href="{{route('menuGerente')}}">Menu</a></div>
-        <div class="col text-center align-self-center"><a href="{{route('soporteGerente')}}">Ayuda</a></div>
+        <div class="col-3 text-center align-self-center"><img src="{{ asset('img/admin/inicio/letras-10.png') }}"alt=""></div>
+        <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('mesasGerente')}}">Mesas</a> </div>
+        <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('pedidosGerente')}}">Pedidos</a></div>
+        <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('personalGerente')}}">Personal</a></div>
+        <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('menuGerente')}}">Menu</a></div>
+        <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('soporteGerente')}}">Ayuda</a></div>
         <div class="col-3 text-center align-self-center">
 
             <div class="row cssrow2">
-                <div class="col-6 align-self-center"><a href="{{route('loginGerente')}}">Gerente</a></div>
-                <div class="col-6  "><img class="img-fluid" src="{{ asset('img/admin/inicio/imagen-login.png') }}"
+                <div class="col-6 align-self-center licontengerente" ><a class="nav-link link-usuario" href="{{route('loginGerente')}}">Irvin Ignacio Cueto Lopez</a></div>
+                <div class="col-6  contenedor-imagen-usuario"><img class="img-fluid imagen-usuario" src="{{ asset('img/admin/inicio/imagen-login.png') }}"
                         alt=""></div>
             </div>
         </div>

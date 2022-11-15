@@ -16,10 +16,11 @@
 
 <body>
     <div class="headerInicioWeb">
-        <h1 class="text-center">HEAT MUNCH</h1>
-        <div class="imagenlogo position-absolute ">
-            <img  class="position-absolute" src="{{ asset('img/admin/inicio/logoEM.png') }}" alt="">
-        </div>
+        <img class="logo-letras" src="{{asset('img/admin/inicio/letras-10.png')}}" alt="">
+        <img class="logo-charola" src="{{asset('img/admin/inicio/logosolo-10.png')}}" alt="">
+
+
+
     </div>
 
     <video src="{{asset('video/dv.mp4')}}" autoplay loop muted ></video>

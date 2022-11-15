@@ -1,17 +1,62 @@
-
-
-.cssrow{
-    height: 84px;
+.cssrow {
+    height: 70px;
     background-color: #FA4A0C;
 }
-.row{
+
+.row {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
 
-body{
+
+
+body {
     background-color: black;
     background-image: url(../img/admin/inicio/fondo.png);
     min-width: 755px;
 
+}
+
+.liconten {
+    color: white;
+}
+
+.licontengerente {
+    color: black;
+    position: relative;
+    height: 19px;
+
+}
+
+
+img {
+    width: 180px;
+}
+
+.contenedor-imagen-usuario {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 100%;
+    background: antiquewhite;
+}
+
+.imagen-usuario {
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-usuario{
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    max-height: 23px;
 }

@@ -62,9 +62,16 @@ video{
     border-radius: 6px;
 }
 
-img{
-    max-width: 80px;
-    top: -57px;
+.logo-letras{
+    margin: 21px;
+    max-width: 246px;
 }
 
-
+.logo-charola{
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 13px;
+    width: 110px;
+    height: 50px;
+}
