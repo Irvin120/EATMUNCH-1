@@ -30,4 +30,8 @@ class UsersController extends Controller
     {
         return view('admin.vistasadmin.mesasGerente');
     }
+    public function indexagregarmesa()
+    {
+        return view('admin.vistasadmin.agregarMesaGerente');
+    }
 }
