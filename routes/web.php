@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\IngresoController;
+use App\Http\Controllers\ProductosController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,3 +26,10 @@ Route::get('/personal/gerente',[UsersController::class, 'indexpersonal'])->name(
 Route::get('/pedidos/gerente',[UsersController::class, 'indexpedidos'])->name('pedidosGerente');
 Route::get('/mesas/gerente',[UsersController::class, 'indexmesas'])->name('mesasGerente');
 Route::get('agregar/mesa/gerente',[UsersController::class, 'indexagregarmesa'])->name('agregarMesaGerente');
+
+//Vistas de Menu Gerente
+
+Route::get('comidas/gerente',[ProductosController::class, 'comidas'])->name('comidasGerente');
+Route::get('bebidas/gerente',[ProductosController::class, 'bebidas'])->name('bebidasGerente');
+Route::get('postres/gerente',[ProductosController::class, 'postres'])->name('postresGerente');
+
