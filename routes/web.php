@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\IngresoController;
+use App\Http\Controllers\ProductosController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
@@ -24,5 +25,16 @@ Route::get('/menu/gerente',[UsersController::class, 'indexmenu'])->name('menuGer
 Route::get('/personal/gerente',[UsersController::class, 'indexpersonal'])->name('personalGerente');
 Route::get('/pedidos/gerente',[UsersController::class, 'indexpedidos'])->name('pedidosGerente');
 Route::get('/mesas/gerente',[UsersController::class, 'indexmesas'])->name('mesasGerente');
+<<<<<<< HEAD
 Route::get('/agregar/mesa/gerente',[UsersController::class, 'indexagregarmesa'])->name('agregarMesaGerente');
 Route::get('/eliminar/mesa/gerente',[UsersController::class, 'indexeliminarmesa'])->name('eliminarMesaGerente');
+=======
+Route::get('agregar/mesa/gerente',[UsersController::class, 'indexagregarmesa'])->name('agregarMesaGerente');
+
+//Vistas de Menu Gerente
+
+Route::get('comidas/gerente',[ProductosController::class, 'comidas'])->name('comidasGerente');
+Route::get('bebidas/gerente',[ProductosController::class, 'bebidas'])->name('bebidasGerente');
+Route::get('postres/gerente',[ProductosController::class, 'postres'])->name('postresGerente');
+
+>>>>>>> c9f7da8a09b52957114ac7879ac615800b4a6bba

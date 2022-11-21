@@ -37,7 +37,7 @@ img {
     position: relative;
     width: 60px;
     height: 60px;
-    
+
     border-radius: 100%;
     background: antiquewhite;
 }
@@ -59,4 +59,19 @@ img {
     max-width: 100%;
     width: 100%;
     max-height: 23px;
+}
+
+.row>*{
+    padding: 0 !important;
+
+}
+
+.btn{
+    border: none;
+    color: white !important;
+}
+
+.button-hover :hover{
+    color: blue;
+
 }
