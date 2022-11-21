@@ -1,44 +1,39 @@
-.container{
-    width: 100%;
-    height: 450px;
+.cont-agregarMesa{
+    width:100%;
+    height: 445px;
+    max-height: 445px;
+    align-items: center;
+}
+.agregarM{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+.container-1{
+    width: 50%;
+    height: 350px;
     background-color: #D9D9D9;
+    text-align: center;
     margin-top: 50px;
 }
-.container-title{
-    background-color: red;
+.container-2{
     width: 50%;
-    height: 80px;
+    height: 350px;
+    background-color: #D9D9D9;
+    margin-top: 50px;
     text-align: center;
 }
-.container-numero-mesa{
-    background-color: greenyellow;
-    width: 50%;
-    height: 80px;
-    text-align: center;
+.img-fluidQR{
+    width: 280px;
+    height: 280px;
+    margin-top: 35px;
 }
-.boton-descargar{
-    background-color: blue;
-    width: 50%;
-    height: 80px;
-    text-align: center;
-}
-i a{
-    text-decoration: none;
-    color: #ffffff;
-    width: 150px;
-    height: 50px;
+button{
     background-color: #00DD09;
-    border-radius: 5px;
-}
-.codigo-qr-mesa-nueva{
-    background-color: violet;
-    width: 250px;
-    height: 250px;
-    display: flex;
-    justify-content:center
-}
-.container-numero-mesa img{
-    margin-left: 125%;
-    margin-bottom: 600px;
-    position: relative;
+    color: #ffffff;
+    border-style: none;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
 }

@@ -7,21 +7,22 @@
 
 @section('conten')
 
-<div class="container">
-    <br>
-    <br>
-    <div class="container-title">
-    <h1>Mesa Creada</h1>
-    </div>
-    <br>
-    <div class="container-numero-mesa">
-    <p>Mesa numero: # </p>
-    <img class="img-fluid" src="{{ asset('img/admin/mesas/CodigoQRMesaNueva.png') }}"  alt="">
-    </div>
-    <br>
-    <br>
-    <div class="boton-descargar">
-        <i><a href="">Decargar QR</a></i>
+<div class="cont-agregarMesa">
+    <div class="agregarM">
+        <div class="container-1">
+            <br>
+            <br>
+            <h1>Mesa creada</h1>
+            <br>
+            <br>
+            <p>Mesa numero: #</p>
+            <br>
+            <br>
+            <button>Descargar QR</button>
+        </div>
+        <div class="container-2">
+            <img class="img-fluidQR" src="{{ asset('img/admin/mesas/CodigoQRMesaNueva.png') }}"  alt="">
+        </div>
     </div>
 </div>
 
