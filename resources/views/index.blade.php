@@ -10,7 +10,7 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-        
+
 </head>
 
 <body>
@@ -18,10 +18,11 @@
         <div class="imagenlogo">
             <img src="{{asset('img/admin/inicio/logoEM.png')}}" alt="">
         </div>
-        <button class="button-ra" type="button"> <a href="{{route('soporteGerente')}}">Ingresar</a></button>
+        <button class="button-ra" type="button"> <a href="{{route('loginGerente')}}">Ingresar</a></button>
     </div>
 
     <div>
+
 
     </div>
 </body>

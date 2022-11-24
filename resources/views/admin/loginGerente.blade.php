@@ -25,23 +25,31 @@
 
     <video src="{{asset('video/dv.mp4')}}" autoplay loop muted ></video>
 
-            <form class="formulario">
-
+            <form method="POST" class="formulario">
+                @csrf
                 <h1 class="titulo-form">LOGIN</h1>
                 <div class="row mb-3">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                    <div class="">
-                        <input type="email" class="form-control" id="inputEmail3">
+                    <div>
+                        <input type="email" name="email" id="email" class="form-control">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <label for="inputPassword3" class=" col-form-label">Contraseña</label>
-                    <div class="">
-                        <input type="password" class="form-control" id="inputPassword3">
+                    <div>
+                        <input type="password" name="password" id="password" class="form-control">
                     </div>
                 </div>
+
+                @error('message')
+                    <p class="border border-primary text-life rounded ">
+                        *{{ $message }}
+                    </p>
+                @enderror
+
                 <button  type="submit" class="butto ">INGRESAR</button>
             </form>
+
 
 </body>
 

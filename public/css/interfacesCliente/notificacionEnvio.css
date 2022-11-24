@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    margin: 0; 
+    background-image: url("../imagenes/Background.jpeg.png");
+    }
+
+header{
+    background-color: rgb(248,0,0);
+    color: white;
+    height: 70px;
+}
+
+#NumMesa, #PEDIDOS{
+    margin: 10px;
+}
+
+#PEDIDOS{
+    margin-top: 20px;
+}
+
+#NumMesa{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+#Logo{
+    width: 50px;
+    margin-top: 3px;
+}
+
+h2{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#alerta{
+    text-align: center;
+}
