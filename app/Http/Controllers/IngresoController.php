@@ -23,17 +23,5 @@ class IngresoController extends Controller
             return  redirect()->to(route('soporteGerente'));
 
         }
-
-
-        if (auth()->attempt(request(['email', 'password'])) == false){
-            return back()->withErrors(['message' => 'El correo o la contraseña es incorrecto']);
-        } else {
-            return  redirect()->to('productos');
-        }
     }
-
-
-
-
-
 }

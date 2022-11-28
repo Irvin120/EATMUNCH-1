@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('menus', function (Blueprint $table) {
             $table->id();
+            $table->string('nombrePlatillo', 60);
+            $table->enum('categoriaPlatillo',['comidas', 'bebidas', 'postres']);
+            $table->text('contenidoPlatillo');
+            $table->text('descripcionPlatillo', 60);
+            $table->integer('precioPlatillo');
+            $table->string('imagenPlatillo');
             $table->timestamps();
         });
     }
