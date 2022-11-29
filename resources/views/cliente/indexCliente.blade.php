@@ -16,9 +16,9 @@
 <header class="d-flex justify-content-around ">
     <div class="" id="NumMesa">Mesa
         <br> 12</div>
-    <div class="" id="PEDIDOS">PEDIDOS</div>
+    <div class="" id="INICIO">INICIO</div>
     <div class="" id="">
-        <img src="{{asset('img/cliente/logo.png')}}" alt="" class="" id="Logo">
+        <img src="{{asset('img/admin/inicio/logo1_Mesa de trabajo 1.png')}}" alt="" class="" id="Logo">
     </div>
 </header>
 <body>
@@ -26,9 +26,9 @@
         <img src="{{asset('img/cliente/imgHamburgesa.png')}}" alt="">
     </div>
     <div class="d-flex justify-content-evenly">
-        <button type="button" id="btn" class="btn btn-orange">PEDIR</button>
+        <a type="button" id="btn" class="btn btn-orange" href="{{route('pedidosCliente')}}">PEDIR</a>
 
-        <button type="button" id="btn1" class="btn btn-orange">CUENTA</button>
+        <a type="button" id="btn1" class="btn btn-orange" href="{{route('cuentaCliente')}}">CUENTA</a>
     </div>
     <div class="bg-orange rounded" id="Progreso">
         <h2>PROGRESO DEL PEDIDO</h2>

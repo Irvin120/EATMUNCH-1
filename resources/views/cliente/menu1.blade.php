@@ -13,25 +13,25 @@
 <header class="d-flex justify-content-around ">
     <div class="" id="NumMesa">Mesa
         <br> 12</div>
-    <div class="" id="PEDIDOS">PEDIDOS</div>
+    <div class="" id="TituloMenu">MENU</div>
     <div class="" id="">
-        <img src="imagenes/logo.png" alt="" class="" id="Logo">
+        <img src="{{asset('img/admin/inicio/logo1_Mesa de trabajo 1.png')}}" alt="" class="" id="Logo">
     </div>
 </header>
 
 <body>
     <div class="d-flex justify-content-around" id="ImgDeMenu">
-        <img src="imagenes/imgMenu.png" alt="">
+        <img src="{{asset('img/cliente/imgMenu.png')}}" alt="">
     </div>
     <div class="d-flex justify-content-around" id="botonesDeMenu">
-        <a type="button" class="btn" id="btnComidas" href="menu1.html">
-            <img src="imagenes/logoBisctec.png" alt="">
+        <a type="button" class="btn" id="btnComidas" href="{{route('menu1Cliente')}}">
+            <img src="{{asset('img/cliente/logoBisctec.png')}}" alt="">
         </a>
-        <a type="button" class="btn" href="menu2.html">
-            <img src="imagenes/logoCafe.png" alt="">
+        <a type="button" class="btn" id="btnBebidas" href="{{route('menu2Cliente')}}">
+            <img src="{{asset('img/cliente/logoCafe.png')}}" alt="">
         </a>
-        <a type="button" class="btn" href="menu3.html">
-            <img src="imagenes/logoNachos.png" alt="">
+        <a type="button" class="btn" id="btnPostres" href="{{route('menu3Cliente')}}">
+            <img src="{{asset('img/cliente/logoNachos.png')}}" alt="">
         </a>
     </div>
 

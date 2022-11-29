@@ -13,9 +13,9 @@
 <header class="d-flex justify-content-around ">
     <div class="" id="NumMesa">Mesa
         <br> 12</div>
-    <div class="" id="PEDIDOS">PEDIDOS</div>
+    <div class="" id="Cuenta">CUENTA</div>
     <div class="" id="">
-        <img src="imagenes/logo.png" alt="" class="" id="Logo">
+        <img src="{{asset('img/admin/inicio/logo1_Mesa de trabajo 1.png')}}" alt="" class="" id="Logo">
     </div>
 </header>
 
@@ -27,7 +27,7 @@
     </div>
 
     <div class="d-flex justify-content-evenly">
-        <button type="button" class="btn " id="btnSolicitarCuenta">Solicitar Cuenta</button>
+        <a type="button" class="btn " id="btnSolicitarCuenta" href="{{route('notificacionCuentaCliente')}}">Solicitar Cuenta</a>
     </div>
 
 </body>

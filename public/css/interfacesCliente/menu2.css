@@ -1,7 +1,7 @@
 body {
     background-color: black;
     margin: 0; 
-    background-image: url("../imagenes/Background.jpeg.png");
+    background-image: url('/img/cliente/background.png');
     }
 
 header{
@@ -14,7 +14,7 @@ header{
     margin: 10px;
 }
 
-#PEDIDOS{
+#TituloMenu{
     margin-top: 20px;
 }
 
@@ -26,7 +26,7 @@ header{
 
 #Logo{
     width: 50px;
-    margin-top: 3px;
+    margin-top: 10px;
 }
 
 #btnMenu{
@@ -57,6 +57,18 @@ h2{
     background-color: white;
     color: white;
 }
+
+#btnComidas:hover {
+    background-color: orangered;
+    }
+
+#btnBebidas:hover{
+    background-color: orangered;
+    }
+
+#btnPostres:hover{
+    background-color: orangered;
+    }
 
 #nombreDePieDeMenu{
     background-color: orangered;

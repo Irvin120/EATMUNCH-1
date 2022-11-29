@@ -1,7 +1,7 @@
 body {
     background-color: black;
     margin: 0;
-    background-image: url("../imagenes/Background.jpeg.png");
+    background-image: url('/img/cliente/background.png');
     }
 
 header{
@@ -29,8 +29,9 @@ header{
     margin: 10px;
 }
 
-#PEDIDOS{
+#INICIO{
     margin-top: 20px;
+    text-align: center;
 }
 
 #NumMesa{
@@ -41,7 +42,7 @@ header{
 
 #Logo{
     width: 50px;
-    margin-top: 3px;
+    margin-top: 10px;
 }
 
 #btnMenu{
@@ -68,10 +69,11 @@ h2{
     color: white;
     margin-top: 10px;
 }
-#anuncio
-{
+#anuncio{
+    margin: 0 auto ;
     max-width: 320px;
 }
 #anuncio img{
+    margin: 0 auto;
     max-width: 320px;
 }
