@@ -34,8 +34,10 @@ class UsersController extends Controller
     {
         return view('admin.vistasadmin.agregarMesaGerente');
     }
-    public function indexeliminarmesa()
+
+    public function indexagregarpersonal()
     {
-        return view('admin.vistasadmin.eliminarMesaGerente');
+        return view('admin.vistasadmin.agregarPersonalGerente');
     }
+    
 }

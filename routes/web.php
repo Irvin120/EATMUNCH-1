@@ -29,8 +29,9 @@ Route::get('/personal/gerente',[UsersController::class, 'indexpersonal'])->name(
 Route::get('/pedidos/gerente',[UsersController::class, 'indexpedidos'])->name('pedidosGerente');
 Route::get('/mesas/gerente',[UsersController::class, 'indexmesas'])->name('mesasGerente');
 
+Route::get('agregar/personal/gerente',[UsersController::class, 'indexagregarpersonal'])->name('agregarPersonalGerente');
+
 Route::get('/agregar/mesa/gerente',[UsersController::class, 'indexagregarmesa'])->name('agregarMesaGerente');
-Route::get('/eliminar/mesa/gerente',[UsersController::class, 'indexeliminarmesa'])->name('eliminarMesaGerente');
 Route::get('agregar/mesa/gerente',[UsersController::class, 'indexagregarmesa'])->name('agregarMesaGerente');
 
 //Vistas de Menu Gerente
