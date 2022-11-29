@@ -15,14 +15,14 @@
         <br> 12</div>
     <div class="" id="PEDIDOS">PEDIDOS</div>
     <div class="" id="">
-        <img src="imagenes/logo.png" alt="" class="" id="Logo">
+        <img src="{{asset('img/admin/inicio/logo1_Mesa de trabajo 1.png')}}" alt="" class="" id="Logo">
     </div>
 </header>
 
 <body>
 
     <div class="d-flex justify-content-evenly">
-        <button type="button" class="btn btn-warning btn-lg btn-block "id="btnMenu">MENU</button>
+        <a type="button" class="btn btn-warning btn-lg btn-block "id="btnMenu" href="{{route('menu1Cliente')}}">MENU</a>
     </div>
 
     <table class="table table-bordered " id="tabla">
@@ -56,7 +56,7 @@
 
 
     <div class="d-flex justify-content-evenly">
-        <button type="button" class="btn btn-lg btn-block "id="btnRealizarPedido">Realizar Pedido</button>
+        <a type="button" class="btn btn-lg btn-block "id="btnRealizarPedido" href="{{route('descripcionPedidoCliente')}}">Realizar Pedido</a>
     </div>
 
 </body>

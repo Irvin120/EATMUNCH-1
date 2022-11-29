@@ -14,9 +14,9 @@
 <header class="d-flex justify-content-around ">
     <div class="" id="NumMesa">Mesa
         <br> 12</div>
-    <div class="" id="PEDIDOS">PEDIDOS</div>
+    <div class="" id="PEDIDOS">PRODUCTO</div>
     <div class="" id="">
-        <img src="imagenes/logo.png" alt="" class="" id="Logo">
+        <img src="{{asset('img/admin/inicio/logo1_Mesa de trabajo 1.png')}}" alt="" class="" id="Logo">
     </div>
 </header>
 
