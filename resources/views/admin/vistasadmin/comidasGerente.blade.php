@@ -17,7 +17,6 @@
             </div>
 
 
-
             <div class="pedido1">
                 @foreach ($comidas as $keycom)
                     <div class="cardeat">
@@ -40,7 +39,15 @@
                                         <p>Precio: $@php echo $keycom['precioPlatillo']@endphp</p>
                                     </div>
                                     <div class="editarPlatillo">
-                                        <button type="submit"> Editar</button>
+
+                                        <form action="{{route("editGerente", $keycom->id) }}" method="GET">
+                                            <button type="submit">
+                                                <span class="fa-regular fa-pen-to-square"></span> ñ</button>
+                                        </form>
+
+
+                                        <button type="submit"> <span class="fa-solid fa-trash-can"></span> </button>
+
                                     </div>
                                 </div>
                             </div>

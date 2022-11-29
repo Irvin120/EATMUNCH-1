@@ -36,6 +36,10 @@ Route::get('agregar/mesa/gerente',[UsersController::class, 'indexagregarmesa'])-
 //Vistas de Menu Gerente
 Route::get('comidas/gerente',[ProductosController::class,'comidas'])->name('comidasGerente');
 Route::post('comidas/store', [ProductosController::class,'store'])->name('storeGerente');
+Route::get('comida/edit/{id}', [ProductosController::class,'edit'])->name('editGerente');
+
+
+
 
 
 Route::get('bebidas/gerente',[ProductosController::class, 'bebidas'])->name('bebidasGerente');

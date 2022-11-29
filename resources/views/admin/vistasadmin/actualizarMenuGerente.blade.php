@@ -3,18 +3,18 @@
 @section('title', 'Menu Gerente')
 
 <link rel="stylesheet" href="{{ asset('css/interfacesGerente/menuGerente.css') }}">
-<script src="{{ asset('js/image.js') }}" crossorigin="anonymouss"></script>
+
 @section('conten')
 
     <div class="cont-form">
 
-        <form method="POST" action="{{ route('storeGerente') }}" enctype="multipart/form-data">
+        <form method="POST" action="#" enctype="multipart/form-data">
             @csrf
             <div class="form">
 
                 <div class="titleform">
                     <br>
-                    <p class="center text-center">Agregar Producto</p>
+                    <p class="center text-center">Editar Producto</p>
                 </div>
 
                 <div class="cont-sections">
@@ -23,27 +23,26 @@
                         <div class="conten-nombreProducto">
                             <p class="center text-center">Nombre Producto</p>
                             <div class="nombreProducto">
-                                <input type="text" name="nombrePlatillo" class="nombrePIn" required>
+                                <input type="text" name="nombrePlatillo" class="nombrePIn" value="{{$menu->nombrePlatillo}}">
                             </div>
                         </div>
 
                         <div class="conten-desCon">
                             <div class="desCon1">
                                 <p>Descripcion</p>
-                                <input class="titulos-DesCon" type="text" name="descripcionPlatillo" required>
+                                <input class="titulos-DesCon" type="text" name="descripcionPlatillo" value="{{menu->descripcionPlatillo}}">
                             </div>
 
                             <div class="desCon2">
                                 <p>Contenido</p>
-                                <input class="titulos-DesCon" type="text" name="contenidoPlatillo" required>
+                                <input class="titulos-DesCon" type="text" name="contenidoPlatillo">
 
                             </div>
                         </div>
                         <div class="conten-categoria">
                             <div class="categoria">
                                 <label for="#">Categoria: </label>
-                                <select type="text" id="disabledSelect" name="categoriaPlatillo" class="select-form"
-                                    required>
+                                <select type="text" id="disabledSelect" name="categoriaPlatillo" class="select-form">
                                     <option>comidas</option>
                                     <option>bebidas</option>
                                     <option>postres</option>
@@ -55,19 +54,8 @@
                     <div class="section2">
                         <div class="imagenSection2">
                             <div class="imagen2">
+                                <input class="inpIma" type="file" name="imagenPlatillo">
 
-
-                                <div class="centerrrr">
-                                    <div class="preview">
-                                        <img id="file-ip-1-preview">
-                                        <i class="fa-solid fa-images"></i>
-                                    </div>
-                                    <div class="form-input">
-                                        <label for="file-ip-1" required>Subir</label>
-                                        <input required name="imagenPlatillo" type="file" id="file-ip-1" accept="image/*"
-                                            onchange="showPreview(event);" >
-                                    </div>
-                                </div>
                             </div>
 
                         </div>
@@ -79,7 +67,7 @@
                                 <label class="label-precio" for="">Precio:</label>
                                 <input class="input-number" type="number" placeholder="$" name="precioPlatillo">
                             </div>
-                            <button class="btn btn-guardar">Guardar</button>
+                            <button class="btn btn-guardar">Actualizar</button>
 
                         </div>
                     </div>
@@ -88,10 +76,11 @@
             </div>
         </form>
         @php
-            echo 'comidas';
+            echo"comidas";
         @endphp
 
     </div>
+
 
 
 @endsection

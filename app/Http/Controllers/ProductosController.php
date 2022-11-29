@@ -61,7 +61,9 @@ class ProductosController extends Controller
 
     }
 
-    public function edit(){
+    public function edit($id){
+        $menu = menu::find($id);
+        return view('admin.vistasadmin.actualizarMenuGerente',compact("menu"));
 
     }
 
