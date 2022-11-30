@@ -13,7 +13,7 @@
 
             <div class="titleform">
                 <br>
-                <p class="center text-center">bebidas</p>
+                <p class="center text-center">Bebidas</p>
             </div>
 
 
@@ -24,10 +24,10 @@
 
                             <div class="contenidoPedido">
                                 @php
-                                    $dirImg = $keycom['imagenPlatillo'];
-                                    $imagen = $dirImg;
+                                   $dirImg = $keycom['imagenPlatillo'];
+                                   $imagen = $dirImg;
                                 @endphp
-                                <img src="{{ asset($imagen) }}" alt="">
+                                <img src="{{asset($imagen)}}" alt="">
                             </div>
 
 
@@ -38,8 +38,22 @@
                                     <div class="precioPlatillo">
                                         <p>Precio: $@php echo $keycom['precioPlatillo']@endphp</p>
                                     </div>
+
                                     <div class="editarPlatillo">
-                                        <button type="submit"> Editar</button>
+
+
+                                        <form class="conFor" action="{{route("editGerente", $keycom->id) }}" method="GET">
+                                            @csrf
+                                            <button type="submit">
+                                                <span class="fa-regular fa-pen-to-square"></span></button>
+                                        </form>
+
+                                        <form class="conFor" action="{{route("destroyGerente", $keycom->id) }}" method="POST">
+                                            @csrf
+                                            @method('DELETE')
+                                        <button type="submit"> <span class="fa-solid fa-trash-can"></span> </button>
+                                        </form>
+
                                     </div>
                                 </div>
                             </div>
@@ -47,6 +61,7 @@
                     </div>
                 @endforeach
             </div>
+
         </div>
     </div>
 

@@ -8,44 +8,55 @@
 
 
     <div class="cont-pedidos">
-
         <div class="pedidos">
-
             <div class="titleform">
                 <br>
                 <p class="center text-center">Postres</p>
             </div>
-
-
             <div class="pedido1">
                 @foreach ($postres as $keycom)
-                <div class="cardeat">
-                    <div class="intCard">
+                    <div class="cardeat">
+                        <div class="intCard">
 
-                        <div class="contenidoPedido">
-                            @php
-                                $dirImg = $keycom['imagenPlatillo'];
-                                $imagen = $dirImg;
-                            @endphp
-                            <img src="{{ asset($imagen) }}" alt="">
-                        </div>
+                            <div class="contenidoPedido">
+                                @php
+                                    $dirImg = $keycom['imagenPlatillo'];
+                                    $imagen = $dirImg;
+                                @endphp
+                                <img src="{{ asset($imagen) }}" alt="">
+                            </div>
 
 
-                        <div class="contenidoInterno">
-                            <p>@php echo $keycom['nombrePlatillo']@endphp</p>
+                            <div class="contenidoInterno">
+                                <p>@php echo $keycom['nombrePlatillo']@endphp</p>
 
-                            <div class="preEdi">
-                                <div class="precioPlatillo">
-                                    <p>Precio: $@php echo $keycom['precioPlatillo']@endphp</p>
-                                </div>
-                                <div class="editarPlatillo">
-                                    <button type="submit"> Editar</button>
+                                <div class="preEdi">
+                                    <div class="precioPlatillo">
+                                        <p>Precio: $@php echo $keycom['precioPlatillo']@endphp</p>
+                                    </div>
+
+                                    <div class="editarPlatillo">
+
+
+                                        <form class="conFor" action="{{ route('editGerente', $keycom->id) }}"
+                                            method="GET">
+                                            @csrf
+                                            <button type="submit">
+                                                <span class="fa-regular fa-pen-to-square"></span></button>
+                                        </form>
+
+                                        <form class="conFor" action="{{ route('destroyGerente', $keycom->id) }}"
+                                            method="POST">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit"> <span class="fa-solid fa-trash-can"></span> </button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            @endforeach
+                @endforeach
             </div>
         </div>
     </div>

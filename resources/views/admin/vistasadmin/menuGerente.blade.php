@@ -77,7 +77,7 @@
 
                             <div class="precio2">
                                 <label class="label-precio" for="">Precio:</label>
-                                <input class="input-number" type="number" placeholder="$" name="precioPlatillo">
+                                <input class="input-number" type="number" placeholder="$" name="precioPlatillo" required>
                             </div>
                             <button class="btn btn-guardar">Guardar</button>
 

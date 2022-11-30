@@ -38,8 +38,8 @@ Route::get('agregar/mesa/gerente',[UsersController::class, 'indexagregarmesa'])-
 Route::get('comidas/gerente',[ProductosController::class,'comidas'])->name('comidasGerente');
 Route::post('comidas/store', [ProductosController::class,'store'])->name('storeGerente');
 Route::get('comida/edit/{id}', [ProductosController::class,'edit'])->name('editGerente');
-
-
+Route::put('comidas/update/{id}',[ProductosController::class, 'update'])->name('updateGerente');
+Route::delete('comida/delete{id}',[ProductosController::class, 'destroy'])->name('destroyGerente');
 
 
 
