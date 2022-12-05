@@ -1,54 +1,124 @@
-body {
-    background-color: black;
-    margin: 0; 
-    background-image: url('/img/cliente/background.png');
-    }
+.conImg{
+    width: 100%;
+    height: 30vh;
+    /* background: red; */
+    margin: 70px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 218px;
+}
 
-header{
-    background-color: rgb(248,0,0);
+.imgPro{
+    background: rgb(227, 227, 227);
+    object-fit: cover;
+    min-width: 100%;
+    height: 30vh;
+    max-height: 218px;
+
+}
+
+.nomPro{
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    /* background: forestgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nomPro p{
+    text-align: center;
+    max-width: 80%;
+    margin: 0;
+    padding: 4px 0px;
     color: white;
+    /* background: pink; */
+    max-height:40px ;
+    line-height: 18px;
+    overflow: hidden;
+}
+
+.conDC{
+    width: 100%;
+    min-height: 200px;
+    max-height: 250px;
+    /* background: gray; */
+    color: white;
+}
+
+.des{
+    position: relative;
+    float: left;
+    width: 40%;
+    min-height: 30px;
+    /* background: #ac12; */
+    margin: 0 5%;
+    text-align: center;
+    max-height: 250px;
+
+}
+
+
+.con{
+    position: relative;
+    float: right;
+    width: 40%;
+    min-height: 30px;
+    /* background: #a6a1a1; */
+    margin: 0 5%;
+    text-align: center;
+    max-height: 250px;
+}
+.p1{
+    position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+.p2{
+    font-size: 12px;
+}
+
+.p11{
+    width: 100%;
+    max-height: 180px;
+    overflow: scroll;
+}
+
+.total{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    /* background: olive; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.totalP{
+    margin: 0;
+    color: white;
+}
+
+.conBut{
+    width: 100%;
     height: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: fuchsia; */
 }
 
-#NumMesa, #PEDIDOS{
-    margin: 10px;
-}
-
-#PEDIDOS{
-    margin-top: 20px;
-}
-
-#NumMesa{
-    background-color: aqua;
-    color: black;
-    text-align: center;
-}
-
-#Logo{
-    width: 50px;
-    margin-top: 10px;
-}
-
-h2{
-    text-align: center;
-    color: white;
-    margin-top: 10px;
-}
-
-#body{
-    color: white;
-}
-
-#anuncio{
-    text-align: center;
-}
-
-#precio{
-    margin-top: 20px;
-}
-
-#btnAgregar{
-    background-color: orangered;
-    color: white;
-    text-align: center;
+.btnAgr{
+    color: white !important;
+    background: #FA4A0C !important;
+    border-radius: 20px !important;
+    width: 70%;
+    height: 30px;
+    padding: 0 !important;
 }

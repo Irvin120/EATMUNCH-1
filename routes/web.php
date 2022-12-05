@@ -60,10 +60,9 @@ Route::get('menu3/cliente',[ClienteController::class, 'menu3'])->name('menu3Clie
 Route::get('notificacionCuenta/cliente',[ClienteController::class, 'notificacionCuenta'])->name('notificacionCuentaCliente');
 Route::get('notificacionEnvio/cliente',[ClienteController::class, 'notificacionEnvio'])->name('notificacionEnvioCliente');
 Route::get('pedidos/cliente',[ClienteController::class, 'pedidos'])->name('pedidosCliente');
-Route::get('productos/cliente',[ClienteController::class, 'productos'])->name('productosCliente');
+Route::get('descripcionProducto/cliente',[ClienteController::class, 'descripcionProducto'])->name('descripcionProductoCliente');
 
 
 
 
-
-
+Route::get('pp',[ClienteController::class, 'pp'])->name('pp');
