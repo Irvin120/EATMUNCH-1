@@ -107,8 +107,6 @@ class ProductosController extends Controller
         $menu->delete();
         return back();
 
-
-
     }
 
 
