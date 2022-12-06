@@ -6,7 +6,7 @@ use App\Http\Controllers\IngresoController;
 use App\Http\Controllers\ProductosController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\EmpleadoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -66,3 +66,6 @@ Route::get('descripcionProducto/cliente',[ClienteController::class, 'descripcion
 
 
 Route::get('pp',[ClienteController::class, 'pp'])->name('pp');
+
+//Ruta para los meseros(empledos)
+Route::resource('empleado',EmpleadoController::class);
