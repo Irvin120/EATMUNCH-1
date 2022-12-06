@@ -10,40 +10,41 @@
 
     @foreach ($datos as $keydato)
         {{-- <div class="contenTarget"> --}}
-            <div class="conImg">
-                <img class="imgPro" src="  {{ asset('img/featureds/1669823211-image 1.png') }}" alt="">
+        <div class="conImg">
+            @php
+                $dirImg = $keydato['imagenPlatillo'];
+                $imagen = $dirImg;
+            @endphp
+            <img class="imgPro" src="{{ asset($imagen) }}" alt="Platillo">
+        </div>
+        <div class="nomPro">
+            <p>@php echo $keydato['nombrePlatillo']; @endphp</p>
+        </div>
 
-            </div>
-
-            <div class="nomPro">
-
-                <p>@php echo $keydato['nombrePlatillo']; @endphp</p>
-            </div>
-
-            <div class="conDC">
-                <div class="des">
-                    <p class="p1">Descripción</p>
-                    <div class="p11">
-                        <p class="p2">@php echo $keydato['descripcionPlatillo']; @endphp</p>
-                    </div>
-                </div>
-                <div class="con">
-                    <p class="p1"> Contenido</p>
-                    <div class="p11">
-                        <p class="p2">@php echo $keydato['contenidoPlatillo']; @endphp</p>
-                    </div>
+        <div class="conDC">
+            <div class="des">
+                <p class="p1">Descripción</p>
+                <div class="p11">
+                    <p class="p2">@php echo $keydato['descripcionPlatillo']; @endphp</p>
                 </div>
             </div>
-
-            <div class="total">
-                <p class="totalP">Precio: $@php echo$keydato['precioPlatillo']; @endphp</p>
+            <div class="con">
+                <p class="p1"> Contenido</p>
+                <div class="p11">
+                    <p class="p2">@php echo $keydato['contenidoPlatillo']; @endphp</p>
+                </div>
             </div>
+        </div>
 
-            <div class="conBut">
+        <div class="total">
+            <p class="totalP">Precio: $@php echo$keydato['precioPlatillo']; @endphp</p>
+        </div>
 
-                <a class="btnAgr btn" href="#">Agregar</a>
-            </div>
+        <div class="conBut">
+
+            <a class="btnAgr btn" href="{{route('descripcionPedidoCliente',$keydato->id)}}">Agregar</a>
+        </div>
         {{-- </div> --}}
-    @endforeach
+    @endforeach 
 
 @endsection
