@@ -21,7 +21,7 @@
         <div class="col-3 text-center align-self-center"><img src="{{ asset('img/admin/inicio/letras-10.png') }}"alt=""></div>
         <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('mesasGerente')}}">Mesas</a> </div>
         <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('pedidosGerente')}}">Pedidos</a></div>
-        <div class=" col text-center align-self-center"><a class=" nav-link liconten" href="{{route('personalGerente')}}">Personal</a></div>
+        <div class=" col text-center align-self-center"><a class=" nav-link liconten" href="{{ url('empleado/') }}">Personal</a></div>
         {{-- <div class="col text-center align-self-center"><a class=" nav-link liconten" href="{{route('menuGerente')}}">Menu</a></div> --}}
         <div class="col text-center align-self-center btn-group" role="group">
             <button type="button" class="btn dropdown-toggle button-hover" data-bs-toggle="dropdown" aria-expanded="false">
