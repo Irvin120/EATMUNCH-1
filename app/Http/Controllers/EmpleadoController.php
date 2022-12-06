@@ -114,5 +114,6 @@ class EmpleadoController extends Controller
         }
 
         return redirect('empleado')->with('mensaje','Empleado Borrado');
+        
     }
 }

@@ -31,6 +31,11 @@
                     <P class="p-info">Codigo de personal: {{ $empleado->codigoP }}</P>
                     <p class="p-info">Direccion: {{ $empleado->Direccion }} </p>
                 </div>
+                <form action="{{url('/empleado/'.$empleado->id)}}" method="post">
+                    @csrf
+                    {{ method_field('DELETE') }}
+                    <input type="submit" onclick="return confirm('¿Quieres Borrar ?')" value="Borrar">
+                </form>
             </div>
             @endforeach
         </div>
