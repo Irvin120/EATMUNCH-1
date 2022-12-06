@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    margin: 0; 
+    margin: 0;
     background-image: url('/img/cliente/background.png');
     }
 
@@ -38,7 +38,7 @@ header{
 
 button{
     background-color: orangered;
-    
+
 }
 
 #btnRealizarPedido{
@@ -50,6 +50,7 @@ button{
 
 #tabla{
     margin-top: 20px;
+    min-height: 150px;
     text-align: center;
     border-color: black;
     background-color: gray;
@@ -78,4 +79,18 @@ h2{
 
 #NombreCostoTotal{
     color: black;
+}
+
+.heaMen{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.conTable{
+    min-height: 200px;
+    background-color: gray;
+    max-width: 80%;
+    margin: 0 auto;
+
+
 }

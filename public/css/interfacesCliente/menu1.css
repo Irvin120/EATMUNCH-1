@@ -75,6 +75,10 @@ p{
     max-height: 100px;
     background: rgb(226, 222, 222);
     border-radius: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .contpn{

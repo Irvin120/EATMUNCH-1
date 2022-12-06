@@ -11,8 +11,8 @@
     </div>
 
     <div class="d-flex justify-content-evenly">
-        <a type="button" id="btn" class="btn btn-orange" href="{{ route('pedidosCliente') }}">PEDIR</a>
-        <a type="button" id="btn1" class="btn btn-orange" href="{{ route('cuentaCliente') }}">CUENTA</a>
+        <a type="button" id="btn" class="btn btn-orange" href="{{ route('descripcionPedidoCliente') }}">PEDIR</a>
+        <a type="button" id="btn1" class="btn btn-orange" href="#">CUENTA</a>
     </div>
 
     <div class="bg-orange rounded" id="Progreso">
