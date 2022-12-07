@@ -22,7 +22,7 @@ return new class extends Migration
             $table->date("FechaN")->format('Y-m-d');
             $table->string("Direccion");
             $table->string("codigoP");
-            $table->string("Foto");
+            $table->string("imagenEmpleado");
             $table->time("HoraEntrada");
             $table->time("HoraSalida");
 

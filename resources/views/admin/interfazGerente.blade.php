@@ -28,7 +28,7 @@
               Menu
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="{{route('menuGerente')}}">Menu</a></li>
+              <li><a class="dropdown-item" href="{{route('menuGerente')}}">Agregar Producto</a></li>
               <li><a class="dropdown-item" href="{{route('comidasGerente')}}">Comidas</a></li>
               <li><a class="dropdown-item" href="{{route('bebidasGerente')}}">Bebidas</a></li>
               <li><a class="dropdown-item" href="{{route('postresGerente')}}">Postres</a></li>

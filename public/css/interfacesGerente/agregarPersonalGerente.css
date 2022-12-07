@@ -1,5 +1,14 @@
 p{
-    color:  rgb(255, 255, 255); ;
+    color:  rgb(255, 255, 255);
+    margin-bottom: 0px !important;
+}
+
+label{
+    color: white;
+}
+
+.text-center{
+    margin-bottom: 0px;
 }
 .principal{
     width: 90%;
@@ -26,18 +35,16 @@ p{
     margin: 0 auto;
     text-align: center;
 }
+
 .info{
-    width: 50%;
-    height: auto;
+    width: 60%;
 }
-/*.foto{
-    width: 180px;
-    height: 180px;
-    background-color: red;
-    border-radius: 100%;
-    margin: 50px auto;
-    align-content: center;
-}*/
+.conFoto{
+    /* background: #1DA31A; */
+    max-height: 350px;
+}
+
+
 .btnGuardar{
     width: 150px;
     background-color: #1DA31A;
@@ -52,7 +59,154 @@ input{
     width: 180px;
     height: 180px;
     background-color: red;
-    border-radius: 100%;
+
     margin: 70px 60px;
     align-content: center;
 }
+
+.form
+{
+    background: red;
+}
+
+
+
+
+
+/*Modificaciones Irvin*/
+
+.conNombre{
+    /* background: #71a31a; */
+    height: 60px;
+    margin-top: 10px;
+}
+
+.conNombreN input label{
+    max-width: 100px;
+}
+
+.conN{
+    float: left;
+    max-width: 120px;
+}
+
+
+.conFecha label{
+    width: 100% !important;
+}
+
+.inputN{
+    width: 100px
+}
+
+
+
+.minDI{
+    /* background: #71a31a; */
+    width: 25%;
+}
+
+
+
+.conHoraE{
+    float: left;
+    width: 49%;
+    height: 74px;
+}
+
+.conGuardar{
+    /* background: blueviolet; */
+    margin-top: 20px;
+
+
+}
+
+.mr{
+    margin-bottom: 10px;
+}
+
+
+.conFoto{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+.imagenSection2{
+    width: 100%;
+
+
+}
+
+.imagen2{
+    width: 180px;
+    height: 180px;
+    max-width: 180px;
+    max-height: 180px;
+    margin: 19px auto;
+    background: #ffffff;
+}
+
+
+.preview{
+    position: relative;
+    width: 180px;
+    height: 150px;
+    max-height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.preview i{
+    font-size: 35px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-left: -15px;
+
+}
+
+
+
+.form-input {
+    width:100%;
+
+  }
+
+  .form-input img {
+    width:100%;
+    max-height: 126px;
+    display:none;
+
+  }
+
+  .preview img{
+    position: absolute;
+    z-index: 1;
+    max-width: 150px;
+    max-height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-input input {
+    display:none;
+  }
+
+  .form-input label {
+
+    text-align:center;
+    margin: 4px 5px;
+    width: 170px;
+    background:#1172c2;
+    color:#fff;
+    font-size:15px;
+    font-family:"Open Sans",sans-serif;
+    text-transform:Uppercase;
+    font-weight:600;
+    border-radius:5px;
+    cursor:pointer;
+  }
+

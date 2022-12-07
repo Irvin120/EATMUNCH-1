@@ -49,7 +49,7 @@
                                             method="POST">
                                             @csrf
                                             @method('DELETE')
-                                            <button type="submit"> <span class="fa-solid fa-trash-can"></span> </button>
+                                            <button type="submit" onclick="return confirm('¿Estás seguro de ELIMINAR este producto?')"> <span class="fa-solid fa-trash-can"></span> </button>
                                         </form>
 
                                     </div>

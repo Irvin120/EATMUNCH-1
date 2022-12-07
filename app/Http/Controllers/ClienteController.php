@@ -25,7 +25,7 @@ class ClienteController extends Controller
 
     public function descripcionPedido()
     {
-        $dato = $_GET['id'];
+        
         return view('cliente.descripcionPedido');
     }
 
