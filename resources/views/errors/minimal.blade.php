@@ -12,7 +12,7 @@
             }
             .min-h-screen{
                 background-image: url('/img/cliente/background.png');
-              
+
 
             }
 
