@@ -39,8 +39,9 @@
         <div class="col-3 text-center align-self-center">
 
             <div class="row cssrow2">
-                <div class="col-6 align-self-center licontengerente" ><a class="nav-link link-usuario" href="{{route('loginGerente')}}">Irvin Ignacio Cueto Lopez</a></div>
-                <div class="col-6  contenedor-imagen-usuario"><img class="img-fluid imagen-usuario" src="{{ asset('img/admin/inicio/imagen-login.png') }}"
+                <div class="col-6 align-self-center licontengerente" ><a class="nav-link link-usuario" onclick="return confirm ('Estás a punto de cerrar sesión')" href="{{route('destroy')}}">admin02@gmail.com</a></div>
+
+                <div class="col-6  contenedor-imagen-usuario"><img class="img-fluid imagen-usuario" src="{{ asset('img/admin/inicio/user.png') }}"
                         alt=""></div>
             </div>
         </div>

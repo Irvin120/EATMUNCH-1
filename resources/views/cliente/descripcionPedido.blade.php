@@ -28,13 +28,12 @@
 
 <body>
 
-    <div class="heaMen d-flex justify-content-evenly">
-        <a href="{{ route('menu1Cliente') }}"><button type="button"
-                class="btn btn-warning btn-lg btn-block "id="btnMenu">MENU</button></a>
+    <div class="heaMen justify-content-evenly">
+        <a href="{{ route('menu1Cliente') }}"><button type="button" class="btn btn-warning btn-lg btn-block "id="btnMenu">MENU</button></a>
     </div>
 
     <div class="conTable">
-        <table class="heaMen table table-bordered " id="tabla">
+        <table class=" table table-bordered " id="tabla">
 
             <thead class="" id="ObjetosDeLaTabla">
                 <th>Producto</th>
@@ -42,6 +41,21 @@
                 <th>Precio</th>
             </thead>
             {{-- @foreach ( as ) --}}
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
             <tr>
                 <td></td>
                 <td></td>
@@ -62,10 +76,11 @@
 
 
     <div class="d-flex justify-content-evenly">
-        <a type="button" class="heaMen btn btn-lg btn-block "id="btnRealizarPedido"
-            href="{{ route('notificacionEnvioCliente') }}">Realizar Pedido</a>
+        <a type="button" class="heaMen btn btn-lg btn-block "id="btnRealizarPedido"href="{{ route('notificacionEnvioCliente') }}">Realizar Pedido</a>
     </div>
-
+    <div class="btnRe">
+    <a class="btnRegresar" auto href="{{route('indexCliente')}}">Regresar</a>
+    </div>
 </body>
 
-</html> 
+</html>

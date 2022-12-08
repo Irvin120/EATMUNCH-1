@@ -23,25 +23,25 @@
                         <div class="conten-nombreProducto">
                             <p class="center text-center">Nombre Producto</p>
                             <div class="nombreProducto">
-                                <input type="text" name="nombrePlatillo" class="nombrePIn" required>
+                                <input maxlength="30" type="text" name="nombrePlatillo" class="nombrePIn" required>
                             </div>
                         </div>
 
                         <div class="conten-desCon">
                             <div class="desCon1">
-                                <p>Descripcion</p>
-                                <input class="titulos-DesCon" type="text" name="descripcionPlatillo" required>
+                                <p>Descripció</p>
+                                <input maxlength="200" class="titulos-DesCon" type="text" name="descripcionPlatillo" required>
                             </div>
 
                             <div class="desCon2">
                                 <p>Contenido</p>
-                                <input class="titulos-DesCon" type="text" name="contenidoPlatillo" required>
+                                <input maxlength="200" class="titulos-DesCon" type="text" name="contenidoPlatillo" required>
 
                             </div>
                         </div>
                         <div class="conten-categoria">
                             <div class="categoria">
-                                <label for="#">Categoria: </label>
+                                <label for="#">Categoría: </label>
                                 <select type="text" id="disabledSelect" name="categoriaPlatillo" class="select-form"
                                     required>
                                     <option>comidas</option>
@@ -76,8 +76,8 @@
 
 
                             <div class="precio2">
-                                <label class="label-precio" for="">Precio:</label>
-                                <input class="input-number" type="number" placeholder="$" name="precioPlatillo" required>
+                                <label  class="label-precio" for="">Precio:</label>
+                                <input min="1" max="999" maxlength="3" class="input-number" type="number" placeholder="$" name="precioPlatillo" required>
                             </div>
                             <button class="btn btn-guardar">Guardar</button>
 

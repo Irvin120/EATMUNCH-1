@@ -18,8 +18,8 @@
         <div class="imagenlogo">
             <img src="{{asset('img/admin/inicio/logoEM.png')}}" alt="">
         </div>
-        <button class="button-ra" type="button"> <a href="{{route('loginGerente')}}">Ingresar</a></button>
-    </div> 
+        <button class="button-ra" type="button"> <a href="{{route('login')}}">Ingresar</a></button>
+    </div>
 
     <div>
 

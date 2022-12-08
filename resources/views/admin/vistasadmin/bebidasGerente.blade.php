@@ -32,11 +32,11 @@
 
 
                             <div class="contenidoInterno">
-                                <p>@php echo $keycom['nombrePlatillo']@endphp</p>
+                                <p class="conTarget">@php echo $keycom['nombrePlatillo']@endphp</p>
 
                                 <div class="preEdi">
                                     <div class="precioPlatillo">
-                                        <p>Precio: $@php echo $keycom['precioPlatillo']@endphp</p>
+                                        <p class="conTarget">Precio: $@php echo $keycom['precioPlatillo']@endphp</p>
                                     </div>
 
                                     <div class="editarPlatillo">

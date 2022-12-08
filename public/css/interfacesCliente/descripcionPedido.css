@@ -1,3 +1,7 @@
+html{
+    min-width: 320px;
+}
+
 body {
     background-color: black;
     margin: 0;
@@ -30,7 +34,7 @@ header{
 }
 
 #btnMenu{
-    width: 550px;
+    width: 100%;
     color: black;
     background-color: yellow;
     margin-top: 10px;
@@ -50,7 +54,7 @@ button{
 
 #tabla{
     margin-top: 20px;
-    min-height: 150px;
+    min-height: 200px;
     text-align: center;
     border-color: black;
     background-color: gray;
@@ -82,15 +86,22 @@ h2{
 }
 
 .heaMen{
-    max-width: 100%;
+   width: 80%;
     margin: 0 auto;
+    /* background: greenyellow; */
 }
+
 
 .conTable{
     min-height: 200px;
     background-color: gray;
     max-width: 80%;
     margin: 0 auto;
-
-
 }
+
+.btnRe{
+    width: 62px;
+    height: 25px;
+    margin: 10px auto;
+}
+

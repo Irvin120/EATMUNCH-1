@@ -45,6 +45,6 @@
             <a class="btnAgr btn" href="{{route('descripcionPedidoCliente',$keydato->id)}}">Agregar</a>
         </div>
         {{-- </div> --}}
-    @endforeach 
+    @endforeach
 
 @endsection

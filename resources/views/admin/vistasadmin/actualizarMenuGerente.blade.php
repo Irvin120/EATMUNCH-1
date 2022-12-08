@@ -13,8 +13,6 @@
             @csrf
             @method("PUT")
             <div class="form">
-
-
                 <div class="titleform">
                     <br>
                     <p class="center text-center">Editar Producto</p>
@@ -26,19 +24,19 @@
                         <div class="conten-nombreProducto">
                             <p class="center text-center">Nombre Producto</p>
                             <div class="nombreProducto">
-                                <input type="text" name="nombrePlatillo" class="nombrePIn" required value="{{$menu->nombrePlatillo}}">
+                                <input maxlength="30" type="text" name="nombrePlatillo" class="nombrePIn" required value="{{$menu->nombrePlatillo}}">
                             </div>
                         </div>
 
                         <div class="conten-desCon">
                             <div class="desCon1">
                                 <p>Descripcion</p>
-                                <input class="titulos-DesCon" type="text" name="descripcionPlatillo" required value="{{$menu->descripcionPlatillo}}">
+                                <input maxlength="200" class="titulos-DesCon" type="text" name="descripcionPlatillo" required value="{{$menu->descripcionPlatillo}}">
                             </div>
 
                             <div class="desCon2">
                                 <p>Contenido</p>
-                                <input class="titulos-DesCon" type="text" name="contenidoPlatillo" required value="{{$menu->contenidoPlatillo}}">
+                                <input maxlength="200" class="titulos-DesCon" type="text" name="contenidoPlatillo" required value="{{$menu->contenidoPlatillo}}">
 
                             </div>
                         </div>
@@ -83,7 +81,7 @@
 
                             <div class="precio2">
                                 <label class="label-precio" for="">Precio:</label>
-                                <input class="input-number" type="number" placeholder="$" name="precioPlatillo" value="{{$menu->precioPlatillo}}" required>
+                                <input  min="1" max="999" maxlength="3" class="input-number" type="number" placeholder="$" name="precioPlatillo" value="{{$menu->precioPlatillo}}" required>
                             </div>
                             <button class="btn btn-guardar">Guardar</button>
 

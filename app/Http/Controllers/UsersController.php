@@ -39,5 +39,13 @@ class UsersController extends Controller
     {
         return view('admin.vistasadmin.agregarPersonalGerente');
     }
-    
+
+    public function destroy()
+    {
+        auth()->logout();
+        return redirect(route('login'));
+    }
+
+
+
 }
