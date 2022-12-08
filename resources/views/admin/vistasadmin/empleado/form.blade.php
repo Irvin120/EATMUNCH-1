@@ -80,7 +80,7 @@
                             </div>
 
                             <div class="conGuardar mr">
-                                <input class="btnGuardar" type="submit" value="Guardar">
+                                <input class="btnGuardar" type="submit"  onclick="return confirm('Desea Guardar')"  value="Guardar">
                                 <br>
                                 <a href="{{ url('empleado/') }}">Regresar</a>
                             </div>
