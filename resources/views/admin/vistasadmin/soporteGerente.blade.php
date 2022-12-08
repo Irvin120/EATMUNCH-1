@@ -24,16 +24,19 @@
                     <p class="icons contenedor"><img class="icon-table imagen" src="{{asset('img/icons/table.png')}}" alt=""></p>
                 </div>
                 <div class="cards-soporte card3">
+                <a target="_blank" href="https://drive.google.com/file/d/14jJKzjSY8bPyLdNplZx2u90q-Ro25_VR/view?usp=sharing">
                     <p class="text text-center">Personal</p>
                     <p class="icons contenedor"><i class="fa-solid fa-users imagen"></i></p>
-
+                    </a>
                 </div>
             </div>
 
             <div class="soporte2">
                 <div class="cards-soporte card1">
+                   <a target="_blank" href="https://drive.google.com/file/d/1TyZJaaT5JIvn_lesr7H8e8nuZnkKRrSO/view?usp=share_link">
                     <p class="text text-center">Menu</p>
                     <p class="icons contenedor"><i class="fa-solid fa-utensils imagen mcm"></i></p>
+                    </a>
                 </div>
                 <div class="cards-soporte card2">
                     <p class="text text-center">Clientes</p>

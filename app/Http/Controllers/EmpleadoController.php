@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Storage;
 class EmpleadoController extends Controller
 {
 
-    public function index()
+    public function index() 
     {
         //
         $datos['empleados'] = Empleado::paginate(5);

@@ -69,6 +69,7 @@ Route::get('descripcionProducto/cliente',[ClienteController::class, 'descripcion
 
 //Ruta para los meseros(empledos)
 Route::resource('empleado',EmpleadoController::class);
+Route::resource('mesa',MesasController::class);
 
 
 //Prubas de interfaz
